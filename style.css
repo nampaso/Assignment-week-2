@@ -1,0 +1,132 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* ID Selector */
+#main-heading {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Class Selector */
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Add Expense Section */
+#add-expense {
+    background-color: #dff9fb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Negation Selector */
+input:not([type="submit"]) {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Form Select */
+select {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Focus Selector */
+input:focus,
+select:focus {
+    border: 2px solid #0984e3;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #0767ad;
+}
+
+/* Expense Section */
+.expenses-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Descendant Selector */
+.expenses-section td {
+    padding: 12px;
+}
+
+/* Table Cells */
+th,
+td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 12px;
+}
+
+/* Header Row */
+thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Position Pseudo-class */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #dfe6e9;
+}
+
+/* Details Section */
+.help-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffeaa7;
+    border-radius: 8px;
+}
+
+/* Direct Child Selector */
+.add-expense-section > form {
+    margin-top: 10px;
+}
+
+/* Video Section */
+.video-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
